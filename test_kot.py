@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # Установка токена вашего бота
-bot = telebot.TeleBot("6949638859:AAGiMkN2NhPCfVZBad1208DhN6piCEBkzBM")
+bot = telebot.TeleBot("*********")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
